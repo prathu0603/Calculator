@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="cal.js"></script>
+</head>
+<body>
+    <div class="calBox">
+        <div class="output">
+            <div class="uptext" id="display" contenteditable="true"></div>
+            <div class="downtext" id="result"></div>
+        </div>
+        <button class="span-two" onclick="clr()">AC</button>
+        <button onclick="clrone()">DEL</button>
+        <button onclick="dis('/')">/</button>
+        <button onclick="dis('1')" >1</button>
+        <button onclick="dis('2')">2</button>
+        <button onclick="dis('3')">3</button>
+        <button onclick="dis('*')">*</button>
+        <button onclick="dis('4')">4</button>
+        <button onclick="dis('5')">5</button>
+        <button onclick="dis('6')">6</button>
+        <button onclick="dis('+')">+</button>
+        <button onclick="dis('7')">7</button>
+        <button onclick="dis('8')">8</button>
+        <button onclick="dis('9')">9</button>
+        <button onclick="dis('-')">-</button>
+        <button onclick="dis('.')">.</button>
+        <button onclick="dis('0')">0</button>
+        <button class="span-two" onclick="solve()">=</button>
+            
+    </div>
+    
+</body>
+</html>
